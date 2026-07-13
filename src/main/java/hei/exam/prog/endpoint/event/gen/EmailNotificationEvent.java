@@ -11,12 +11,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EmailNotificationEvent {
-    @JsonProperty("submission_id")
-    private String submissionId;
+  @JsonProperty("submission_id")
+  private String submissionId;
 
-    @JsonProperty("email")
-    private String email;
+  @JsonProperty("email")
+  private String email;
 
-    @JsonProperty("file_name")
-    private String fileName;
+  @JsonProperty("file_name")
+  private String fileName;
 }
